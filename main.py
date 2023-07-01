@@ -70,6 +70,6 @@ if __name__ == "__main__":
             row = read(extracted)
             if not row:
                 store(extracted)
-                #send_mail(message=f"New event was found \n{extracted}.")
+                send_mail(message=f"New event was found \n{extracted}.")
         time.sleep(2)
         
